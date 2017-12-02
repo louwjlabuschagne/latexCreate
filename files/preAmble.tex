@@ -40,7 +40,8 @@
 \setlength{\parindent}{0pt} %remove indent
 
 \hypersetup{
-	colorlinks = true
+	colorlinks = true,
+	allcolors=[rgb]{0.5,0.5,0.5}
 }
 
 %%% SECTION TITLE APPEARANCE
@@ -53,6 +54,11 @@
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+\usepackage{xcolor}
+\usepackage{natbib}
+\bibliographystyle{agsm}
+
 
 \usepackage{color}
 %\everymath=\expandafter{\the\everymath\displaystyle}
