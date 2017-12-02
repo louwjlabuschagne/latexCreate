@@ -33,6 +33,7 @@ assets = mkdir(pwd, "assets")
 content = mkdir(pwd, "content")
 figures = mkdir(pwd, "figures")
 
-touch("preAmble.tex", _dir=content, "https://gist.githubusercontent.com/louwjlabuschagne/c360ddcf0a098e0dd2b7d51e37fda204/raw/f6bd209edc3a08e2cefbe4634d8b1b1d96f1010c/preAmble.tex")
-touch("main.tex", _dirpwd, "https://gist.githubusercontent.com/louwjlabuschagne/36f18b685e5908d2098b364f69ce637e/raw/54e7673a4b6687de21c470161de476d9ffa1648d/main.tex")
-
+touch("preAmble.tex", content, "https://raw.githubusercontent.com/louwjlabuschagne/latexCreate/master/files/preAmble.tex")
+touch("main.tex", pwd, "https://raw.githubusercontent.com/louwjlabuschagne/latexCreate/master/files/main.tex")
+touch("compile.sh", pwd, "https://raw.githubusercontent.com/louwjlabuschagne/latexCreate/master/files/compile.sh")
+touch("Bibliography.bib", pwd, "https://raw.githubusercontent.com/louwjlabuschagne/latexCreate/master/files/Bibliography.bib")
